@@ -1,5 +1,5 @@
 // Activity: function declaration versus definition
-// My Solution
+// My Solution (book solution is the same)
 
 #include <stdio.h>
 
