@@ -20,8 +20,10 @@ int main(void) {
 		fscanf(ifile, "%d", &grade);
 		total += grade;
 	}
+	fclose(ifile); /* closes the file */
+	
 	avg = total/N;
 	printf("%.2lf\n", avg);
-	fclose(ifile); /* closes the file */
+	
 	return 0;
 }
